@@ -393,6 +393,13 @@ export const createMediaContent = (type: MediaWidgetType) => {
         src: '',
       };
       break;
+    case 'border':
+      content.borderConfig = {
+        type: 1,
+        firstColor: '#4fd2dd',
+        secondColor: '#235fa7',
+      };
+      break;
     default:
       break;
   }

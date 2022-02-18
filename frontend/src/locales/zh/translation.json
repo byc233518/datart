@@ -752,7 +752,9 @@
         "delete": "删除",
         "copy": "复制",
         "paste": "粘贴",
-        "deviceSwitch": "设备切换"
+        "deviceSwitch": "设备切换",
+        "border": "边框",
+        "border_stype": "边框样式"
       },
       "controlTypes": {
         "common": "常规",
@@ -827,7 +829,8 @@
         "timer": "时间器",
         "iframe": "iframe",
         "video": "视频",
-        "tab": "Tab"
+        "tab": "Tab",
+        "border": "边框"
       },
       "action": {
         "refresh": "同步数据",

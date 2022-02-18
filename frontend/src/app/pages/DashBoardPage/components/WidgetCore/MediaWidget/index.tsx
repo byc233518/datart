@@ -24,6 +24,7 @@ import ImageWidget from './ImageWidget';
 import RichTextWidget from './RichTextWidget';
 import TimerWidget from './TimerWidget';
 import VideoWidget from './VideoWidget';
+import BorderWidget from './BorderWidget';
 
 export const MediaWidget: React.FC<{}> = memo(() => {
   const widget = useContext(WidgetContext);
@@ -40,6 +41,8 @@ export const MediaWidget: React.FC<{}> = memo(() => {
       return <IframeWidget />;
     case 'timer':
       return <TimerWidget />;
+    case 'border':
+      return <BorderWidget />;
     default:
       return <div>default media</div>;
   }

@@ -303,6 +303,11 @@ export type MediaWidgetContent = {
   iframeConfig?: {
     src: string | undefined;
   };
+  borderConfig?: {
+    type: number | undefined;
+    firstColor: string | undefined;
+    secondColor: string | undefined;
+  };
 };
 // 容器组件配置
 export type ContainerWidgetContent = {
@@ -356,6 +361,7 @@ export declare const MediaWidgetTypes: [
   'image',
   'video',
   'iframe',
+  'border',
 ];
 
 export type MediaWidgetType = typeof MediaWidgetTypes[number];
